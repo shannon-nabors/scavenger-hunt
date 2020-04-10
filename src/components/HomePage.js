@@ -6,6 +6,7 @@ import ButtonSet from './ButtonSet'
 function HomePage() {
   return (
     <div id="home-page">
+      HI
       <ButtonSet/>
     </div>
   )
