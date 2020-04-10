@@ -1,13 +1,172 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #F4EAC0; */
+  /* background-color: linen; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#clues-page {
+  /* color: #A01F24; */
+  height: 100vh;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#clue-column {
+  background-color: linen;
+  margin-top: 20px;
+  border: 10px solid #F1DF4B;
+}
+
+#home-page {
+  background-color: #C1A882;
+  height: 100vh;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#button1 {
+  background-color: #F1DF4B;
+}
+
+#button2 {
+  background-color: #F1DF4B;
+}
+
+#clues-page {
+  background-color: #C1A882;
+}
+
+.clue-number {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+#letter-grid {
+  width: 75vh;
+  margin-bottom: 20px;
+}
+
+#sea-page {
+  height: 100vh;
+  padding-top: 30px;
+  background-color: linen;
+  background-image: url('sea-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#music {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#flag-page {
+  background-color: #C1A882;
+  height: 100vh;
+  text-align: center;
+  padding-top: 45px;
+}
+
+#flag-text {
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+  padding: 30px 0px;
+  margin: 45px 0px;
+  border: 10px solid #F1DF4B;
+  /* border: 5px solid #66ACC6; */
+  /* border-radius: 15px; */
+  background-color: white;
+}
+
+#flag-pics {
+  padding: 15px 15px;
+}
+
+#flag-pics img {
+  height: 100px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+/* 301  49 8 7 14 4 */
+
+#flag-letters {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.letter {
+  padding-left: 5px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.gray {
+  color: gray;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue {
+  color: blue;
+}
+
+.orange {
+  color: orange;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+#movie-page {
+  background-color: #C1A882;
+  height: 110vh;
+}
+
+#video {
+  /* margin: 50px 0px; */
+}
+
+#video-container {
+  width: 700px;
+  margin: 50px 0px;
+  background-color: linen;
+  border: 10px solid #F1DF4B;
+  padding: 20px;
+}
+
+#metro-page {
+  background-color: linen;
+  height: 100vh;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#art-page {
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 20px;
+  width: 100vw;
+}
+
+#stop-painting {
+  height: 80vh;
+  margin-top: 70px;
 }
