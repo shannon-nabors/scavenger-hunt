@@ -2,7 +2,7 @@ import React from 'react'
 import {Grid} from 'semantic-ui-react'
 import MapButton from './MapButton'
 
-const clues1 = [
+const clues = [
     {number: "1", text: "Mind your own BUSiness."},
     {number: "3", text: "This is obviously a false clue."},
     {number: "8", text: "It's fine by me if it's fine by you."},
@@ -25,9 +25,7 @@ const clues1 = [
     {number: "89", text: "Get loads and wash them up."},
     {number: "98", text: "Go to /mango"},
     {number: "105", text: "The second part's not important..."},
-    {number: "122", text: "Don't tell me the meaning, tell me the consequences."}]
-
-const clues2 = [
+    {number: "122", text: "Don't tell me the meaning, tell me the consequences."},
     {number: "169", text: "Do you mean to tell me you've forgotten?!"},
     {number: "190", text: "Unless I'm mistaken, that's definitely an osprey."},
     {number: "207", text: "ALL CAPS ALL THE TiME"},
@@ -41,7 +39,7 @@ const clues2 = [
     {number: "15,628", text: "Unless...UNLESS"},
     {number: "19,100", text: "Double secret probation is only half as bad."},
     {number: "23,005", text: "My word is 'law'."},
-    {number: "27,869", text: "Similar pork, but on a scalawag."},
+    {number: "27,869", text: "Similar pork, on a scalawag."},
     {number: "40,000", text: "No, I don't remember. Remind me."},
     {number: "51,257", text: "Words to live by: Whatever Michael does, do the opposite."},
     {number: "67,670", text: "Gall his senses, or aim low."},
@@ -56,17 +54,7 @@ function CluesPage() {
         <MapButton/>
         <Grid centered columns={3}>
             <Grid.Column id="clue-column">
-                {clues1.map(clue => {
-                    return (
-                        <div>
-                            <span class="clue-number">{clue.number}</span>
-                            <span class="clue-text">{clue.text}</span>
-                        </div>
-                    )
-                })}
-            </Grid.Column>
-            <Grid.Column id="clue-column">
-                {clues2.map(clue => {
+                {clues.map(clue => {
                     return (
                         <div>
                             <span class="clue-number">{clue.number}</span>

@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import HomePage from './HomePage'
 import MapPage from './MapPage'
 import CluesPage from './CluesPage'
+import FinalClue from './FinalClue'
 import SeaPage from './SeaPage'
 import FlagPage from './FlagPage'
 import MoviePage from './MoviePage'
@@ -47,6 +48,14 @@ function App() {
       <Route
         path="/scubadiver"
         component={MetroMoverPage}
+      />
+      <Route
+        path="/scuba"
+        component={MetroMoverPage}
+      />
+      <Route
+        path="/toilet"
+        component={FinalClue}
       />
       <Route
         path="/whale"

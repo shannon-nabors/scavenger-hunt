@@ -1,18 +1,18 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import {Button} from 'semantic-ui-react'
+import {Grid} from 'semantic-ui-react'
+import HomeButton from './HomeButton'
 
 function HomePage() {
   return (
-    <div id="home-page">
-        <div>
+    <div id="map-page">
+      <Grid centered columns={2}>
+        <Grid.Column>
+          <div className="reg-container">
             Uh-oh, looks like you went to a route that doesn't exist!  Try re-wording your destination, or ask Shannon if you need some clarification.
-        </div>
-      <Button
-        color="yellow"
-        as={Link}
-        to="/home"
-      >Home</Button>
+            <br/><br/><HomeButton/>
+          </div>
+        </Grid.Column>
+      </Grid>
     </div>
   )
 }
