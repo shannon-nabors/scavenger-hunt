@@ -21,7 +21,7 @@ function ArtPage() {
         <Grid.Column style={{paddingLeft: "60px"}}>
           Watch Art Basel's lecture on the painting:
           <ReactPlayer
-            url="https://youtu.be/kPOqwGtLJFs"
+            url="https://www.youtube.com/watch?v=9Dp3Nnbckm0&feature=youtu.be"
           />
         </Grid.Column>
         <Grid.Column></Grid.Column>

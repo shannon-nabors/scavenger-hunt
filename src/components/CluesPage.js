@@ -8,7 +8,7 @@ const clues = [
     {number: "8", text: "It's fine by me if it's fine by you."},
     {number: "11", text: "Sell a mill and I'll kill Bill."},
     {number: "12", text: "I love going as Tubby."},
-    {number: "15", text: "Small 'n rural."},
+    {number: "15", text: "Small 'N Rural."},
     {number: "21", text: "Too bad, Joe."},
     {number: "28", text: "qrupsgklcbn"},
     {number: "32", text: "The wine tells me things."},

@@ -41,13 +41,12 @@ class LetterGrid extends React.Component {
     }
 
     render() {
-        let dimension = 15
+        let dimension = this.props.dimension
         return (
             <svg
             viewBox={`0 0 ${23 * dimension + 6} ${23 * dimension +6}`}
             preserveAspectRatio="xMidYMin meet"
             xmlns="http://www.w3.org/2000/svg"
-            display={this.props.invisible ? "none":"inline"}
             >
                 <g>{this.cellObjects().map(c => <Cell key={c.id} cell={c}/>)}</g>
                 <g>

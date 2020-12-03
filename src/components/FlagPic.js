@@ -32,7 +32,7 @@ class FlagPic extends React.Component {
         let num = this.props.number
         let color = this.state.color
         return (
-            <img onClick={this.handleClick} src={require(`../flag-${num}-${color}.png`)}/>
+            <img class="flag-pic" onClick={this.handleClick} src={require(`../flag-${num}-${color}.png`)}/>
         )
     }
 }

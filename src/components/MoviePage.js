@@ -12,7 +12,7 @@ function MoviePage() {
               Chris and Maria's Mystery
               <ReactPlayer
                   id="video"
-                  url="https://www.youtu.be/9X9GBXcL6e4"
+                  url="https://youtu.be/TXJ_5fPg1ss"
               />
             </div>
               <ButtonSet/>

@@ -38,6 +38,14 @@ function App() {
         component={MoviePage}
       />
       <Route
+        path="/swiss"
+        component={ArtPage}
+      />
+      <Route
+        path="/swisscheese"
+        component={ArtPage}
+      />
+      <Route
         path="/cheese"
         component={ArtPage}
       />
@@ -46,11 +54,11 @@ function App() {
         component={MetroMoverPage}
       />
       <Route
-        path="/scubadiver"
+        path="/scuba"
         component={MetroMoverPage}
       />
       <Route
-        path="/scuba"
+        path="/scubadiver"
         component={MetroMoverPage}
       />
       <Route

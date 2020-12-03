@@ -14,7 +14,7 @@ class LetterCell extends React.Component {
   render() {
     let cell = this.props.cell
     return (
-      <g onClick={this.handleClick}>
+      <g class="letter-cell" onClick={this.handleClick}>
         <rect
           x={ (23 * cell.column - 20).toString() }
           y={ (23 * cell.row - 20).toString() }

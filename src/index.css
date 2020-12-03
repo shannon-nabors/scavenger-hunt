@@ -208,3 +208,15 @@ body {
   color: #CB3737;
   text-decoration: underline;
 }
+
+.flag-pic {
+  cursor: pointer;
+}
+
+.letter-cell {
+  cursor: pointer;
+}
+
+.letter {
+  cursor: pointer;
+}
